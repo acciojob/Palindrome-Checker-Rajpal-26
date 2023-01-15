@@ -8,9 +8,9 @@ function palindrome(str){
 			count++;
 		}
 		else{
-			return "false";
+			return message:'false';
 		}
-		return "true";
+		return message:'true';
 	}
 }
 module.exports = palindrome
