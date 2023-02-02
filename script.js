@@ -6,7 +6,7 @@ function palindrome(str){
 	}
 	
 	let left =0;
-	let right = str.length-1;
+	let right = str.length;
 	while(left<right){
 		if(str[left]!==str[right]){
 			return false;
